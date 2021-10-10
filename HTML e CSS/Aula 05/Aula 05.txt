@@ -1,0 +1,7 @@
+Listas
+
+'ul' serve para uma lista cuja ordem não é importante.
+
+'ol' serve para uma lista cuja ordem é importante.
+
+'li' serve para adicionar itens a qualquer uma das listas.

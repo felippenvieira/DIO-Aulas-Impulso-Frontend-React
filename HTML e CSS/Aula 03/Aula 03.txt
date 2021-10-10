@@ -1,0 +1,6 @@
+Para título da página: h1
+Para título de seção: h2
+Para título de artigo: h3
+Para conteúdo de artigo: p
+
+Para interligar vários conteúdos como link, e-mail e telefone, utilize o 'a' de anchor/âncora, com o href indicando o link e o target indicando o modo de abertura, como blank.

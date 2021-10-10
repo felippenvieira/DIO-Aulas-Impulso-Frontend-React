@@ -1,0 +1,7 @@
+Imagens
+
+Apenas dois atributos são necessários e não há necessidade de utilizar tag de fechamento.
+
+Os atributos são o src, que indica a fonte da imagem, e o alt, que indica um texto alternativo para a imagem.
+
+Sempre utilizar tinypng para diminuir o tamanho das imagens.

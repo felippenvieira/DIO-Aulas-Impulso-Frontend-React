@@ -1,0 +1,23 @@
+O font-family altera a fonte do nosso texto, podendo ser utilizadas fontes próprias do PC ou da web.
+
+As mais comuns e encontradas são a verdana e a arial, por exemplo.
+
+O font-size altera o tamanho do texto.
+
+O font-style altera a aparência do texto, podendo ser itálica.
+
+O font-weight altera o peso do texto, podendo ser bold.
+
+O text-transform altera o texto entre maiúscula e minúscula, podendo ser uppercade, lowercase ou capitalize.
+
+O text-decoration serve para ressaltar alguma parte do texto com linhas.
+
+O list-style-type altera o símbolo da lista;
+
+Dimensão e alinhamento - 
+
+Width e Height são utilizados para largura e altura respectivamente.
+
+Temos também o max-width e o max-height que define o máximo desses atributos.
+
+A margin serve para alinhar um elemento do mesmo modo como o text-align.

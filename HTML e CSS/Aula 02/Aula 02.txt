@@ -1,0 +1,1 @@
+Temos como principais elementos de semântica a section, o header, o article, o aside, o footer e os h, que vão de 1 a 6.

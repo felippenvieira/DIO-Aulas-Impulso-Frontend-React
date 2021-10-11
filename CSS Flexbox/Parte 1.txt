@@ -1,0 +1,20 @@
+Fundamentos:
+
+Display Flex:
+
+Extensões - HTML Snippets e o Live HTML Previewer.
+
+Objetivo:
+
+Conhecer e aplicar a propriedade de inicialização do flex container.
+
+Flex direction:
+Entender o comportamento padrão e aprender a modificá-la, pois essa é a propriedade que estabelece eixos dentro do container.
+
+Os eixos vem com padrão row: esquerda para direita.
+
+O row-reverse traz o sentido oposto ao padrão row.
+
+O column ordena de cima para baixo em coluna única.
+
+O column-reverse ordena de baixo para cima em coluna única.

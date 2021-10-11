@@ -1,0 +1,13 @@
+Objetivo:
+Apresentar os fundamentos e aplicações da propriedade flexbox na criação de layouts responsivos, sem a necessidade da definição de valores fixos.
+
+Primeira aula:
+
+- Conhecer a estrutura básica;
+- Entender diferença entre flex container e flex item;
+- Conhecer algumas propriedades.
+
+Flex container é a tag que envolve os itens (propriedade "display:flex"), com propriedade relacionadas: display, flex-direction, flex-wrap, flex-flow, justify-content, align-items e align-content.
+
+Flex Item são os elementos filhos diretos do flex container, podendo se tornar flex container, com suas propriedades: flex-grow, flex-basis, flex-shrink, flex, order, align-self.
+

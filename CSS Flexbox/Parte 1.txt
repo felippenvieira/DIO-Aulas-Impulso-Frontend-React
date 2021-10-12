@@ -18,3 +18,22 @@ O row-reverse traz o sentido oposto ao padrão row.
 O column ordena de cima para baixo em coluna única.
 
 O column-reverse ordena de baixo para cima em coluna única.
+
+A flex wrap é que define a quebra de linha do container e, por padrão, eles não quebram linhas.
+O nowrap é o padrão que não permite a quebra de linha.
+O wrap permite a quebra de linhas.
+O wrap-reverse permite a quebra de linha, porém na direção contrária.
+
+O flex flow é um atalho para as propriedades flex-direction e flex-wrap, comprimindo a escrita, não sendo tão utilizado.
+
+O justify content vai se encarregar de alinhar os itens dentro do container de com a direção pretendida e tratar da distribuição de espaçamento entre eles.
+
+O flex-start alinha no início do container; o flex-end alinha no final do container; o center alinha ao centro; o space-between cria um espaçamento igual entre os elementos; o space-around deixa os espaçamentos do meio duas vezes maiores que o inicial e o final.
+
+O align items trata do alinhamento dos flex itens de acordo com o eixo do container, tanto para linhas quanto para colunas, permitindo o alinhamento no eixo vertical.
+
+Os tipos de alinhamento são: center, stretch, flex-start, flex-end e baseline.
+
+O align content é responsável por tratar o alinhamento das linhas do container em relação ao eixo vertical do container.
+
+Os tipos de alinhamento são: center, stretch, flex-start, flex-end, space-between e space-around.

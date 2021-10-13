@@ -1,0 +1,17 @@
+Flex itens
+
+Flex-grow é a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteúdos internos, não funcionando caso tenhamos adicionado justify-content ao flex container.
+
+O flex-basis é a propriedade que estabelece o tamanho inicial do item antes da distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto.
+
+Os valores possíveis para o flex-basis são: auto - caso o item não tenha tamanho, este será proporcional ao conteúdo do item; px, %, em, ... - são valores exatos previamente definidos; 0 - terá relação com a definição do flex-grow.
+
+O flex-shrink é a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+
+O flex é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
+
+O order, como o próprio nome diz, ordena os itens.
+
+O align-self é a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+
+Os valores possíveis para o align-self pode ser: auto - irá respeitar a definição de align-items do container; flex-start - início do container; flex-end - final do container; center - relativo ao centro de acordo com o eixo; stretch - ocupa todo o espaco relativo; baselinho - utiliza a linha base da tipografia.

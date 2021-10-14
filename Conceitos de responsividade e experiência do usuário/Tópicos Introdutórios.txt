@@ -1,0 +1,72 @@
+Fundamentos UI/UX -
+
+Um grande projeto começa sempre com um briefing bem feito e, através da imersão, procuramos conhecer o problema para, no primeiro dia, fazer o unpack, que é ouvir várias informações diferentes, sendo uma etapa fundamental para o sucesso do projeto.
+
+Wireframes, grids e hierarquia - 
+
+Estrutura, conteúdo, hierarquia informativa e funcionalidade.
+
+Grids, alinhamento e espaçamento -
+
+O grid nos ajuda a projetar em proporções harmoniosas balanceando os pesos dos elementos gráficos do layout.
+
+Luzes, sombras, consistência e padrão - 
+
+As luzes e sombras garantem movimento, profundidade e contraste na interface.
+
+A consistência e o padrão estão relacionados com o mesmo tom de redação, o mesmo padrão visual e a mesma consistência em diversos devices.
+
+Cores -
+
+Saber usar as cores em um projeto não é nada fácil. Uma dica importante é conhecer um pouco sobre a psicologia das cores.
+
+As cores primárias são o azul, o laranja e o cinza, sendo as mais importantes em todo o sistema.
+
+As cores secundárias e suas variações possuem significado próprio, na qual a vermelha está associada a erro, a verde a sucesso e a amarela a avisos importantes. Essas cores também são chamadas de cores de feedback.
+
+O gradiente troue mais elegância para as interfaces.
+
+Tipografias -
+
+Escolher tipografia é como escolher uma roupa. A tipografia irá causar uma impressão assim como a roupa causa.
+
+As principais categorias básicas de fontes são as serifadas, sem serifa, cursivas e decorativas.
+
+As fontes serifadas apresentam pequenos traços ou prolongamentos no final de suas letras. Elas geralmente representam os conceitos de seriedade e tradicionalidade.
+
+As fontes sem serifa (sans-serif) não têm as linhas extras no final das letras. Por esse motivo, são geralmente consideradas mais modernas e dinâmicas.
+
+As fontes cursivas abrangem as manuscritas ou caligráficas, passando por vários estilos diferentes, de elegante, pessoal e exclusivo a divertido e descontraído.
+
+As fontes decorativas ou fantasia (display) são fontes destinadas a chamarem sua atenção. Elas geralmente são mais inusitadas do que práticas e devem ser usadas em pequenas doses, para efeito e propósito específicos.
+
+Tamanho e peso - 
+
+É necessário que o texto esteja em um tamanho confortável em relação a distância da tela, por isso os browsers possuem tamanho padrão de 16 px.
+
+O peso é a grossura dos caracteres e é atribuído pela propriedade font-weight, podendo ser nomal, bold, bolder e lighter, ou em numeração que vai de 100 a 900 normalmente.
+
+Iconografia -
+
+Tem a ver com imagem, ícone.
+
+É importante que os ícones sejam o mais simples possível para traduzir a informação que precisa. Também é possível combinar os ícones com palavras. 
+Deve-se escolher ícones familiares e utilizar espaçamento.
+
+Quanto à consistência, não se deve usar mais do que três cores e repetir os elementos nos ícones não é ruim.
+
+Imagens -
+
+Imagens são importantíssimas para capturar a atenção do usuário e diferenciar o produto, ultrapassando a barreira linguística.
+
+A imagem também deve ter um contexto relevante.
+
+Guias de Estilo servem para preservar a uniformidade e a coerência de comunicação da marca, mantendo suas propriedades independente da plataforma.
+
+
+Processos do mundo real - 
+
+Sobre responsividade, ler artigo disponibilizado.
+
+Preocupe-se com um bom portfolio.
+

@@ -4,3 +4,5 @@
 
 ## - CSS Flexbox;
 
+## - Conceitos de responsividade e experiência do usuário
+

@@ -8,3 +8,5 @@
 
 ## - Recriando a interface da Netflix
 
+## - Sintaxe e Operadores
+

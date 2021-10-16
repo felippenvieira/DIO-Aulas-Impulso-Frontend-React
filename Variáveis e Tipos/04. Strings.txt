@@ -1,0 +1,8 @@
+As strings são comumente utilizadas para textos, cujos valores são declarados entre aspas ou crases, neste último por meio de interpolação craseada.
+
+A barra invertida '\' juntamente com o 'n' são utilizados para quebra de linha: "\n".
+
+Além disso, é possível fazer a interpolação craseada: `Texto exemplo junto com uma ${var}`
+
+Para printar aspas é necessário utilizar a barra invertida: "\"".
+

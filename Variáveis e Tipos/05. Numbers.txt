@@ -1,0 +1,4 @@
+Os números podem ser inteiros ou decimais e são declarados sem as aspas.
+
+O Javascript conta com uma biblioteca de matemática chamada Math.
+

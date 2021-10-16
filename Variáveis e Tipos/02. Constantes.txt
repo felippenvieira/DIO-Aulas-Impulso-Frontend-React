@@ -1,0 +1,4 @@
+As constantes são declaradas em SNAKE_UPPER_CASE, possuem escopo de bloco e não fazem hoisting.
+
+Uma constante não pode ser reatribuída ou ser redeclarada.
+

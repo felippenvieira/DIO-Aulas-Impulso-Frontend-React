@@ -1,0 +1,13 @@
+No JavaScript utiliza-se muito a atribuição em forma de Camel Case: someAwesomeVar.
+
+Menos utilizada é a Upper Case Snake Case em constantes: SOME_AWESOME_VAR.
+
+Valores dinâmicos que podem ser modificados ao longo do ciclo de vida do código utiliza-se var ou let.
+
+A let possui um escopo de bloco, ou seja, só funciona dentro de onde foi declarada.
+
+O hoisting nada mais é do que a atribuição de um valor a uma variável antes que ela seja declarada.
+
+A redeclaração só é possível na var.
+
+O conselho é utilizar mais o let que o var.

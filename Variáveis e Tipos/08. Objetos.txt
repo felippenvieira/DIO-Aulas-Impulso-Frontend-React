@@ -1,0 +1,19 @@
+De forma exemplificativa um objeto é assim:
+
+let person = {
+	name: 'John',
+	age: 20
+};
+
+Assim, o objeto é do tipo "chave e valor".
+
+let obj = {} - inicializa um object
+
+obj.name = "Julia" - adiciona uma chave com o valor Julia.
+
+obj.age = 20 = adiciona outra chave com o valor 20. 
+
+Object.values(obj) - retorna os valores presentes no objeto.
+
+Object.keys(obj) - retorna o nome das chaves.
+

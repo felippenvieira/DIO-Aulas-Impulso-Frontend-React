@@ -1,0 +1,2 @@
+Os booleans são verdadeiros ou falsos, retornando true ou false.
+

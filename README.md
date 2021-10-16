@@ -10,3 +10,5 @@
 
 ## - Sintaxe e Operadores
 
+## - Variáveis e Tipos
+

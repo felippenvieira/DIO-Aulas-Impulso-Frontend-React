@@ -1,0 +1,91 @@
+Valores padrão e Objeto "arguments" -
+
+function exponencial(array, num = 1) {
+	const result = [];
+
+	for(let i = 0; i < array.length; i++) {
+		result.push(array[i] ** num);
+	}
+
+	return result;
+}
+
+exponencial([1, 2, 3, 4])
+// 1, 2, 3, 4
+
+exponencial([1, 2, 3, 4] 4)
+// 1, 8, 27, 64
+
+
+Objeto "arguments" --
+
+function findMax(){
+	let max = -Infinity;
+
+	for (let i = 0; i < arguments.length; i++) {
+		if (arguments[i] > max){
+			max = arguments[i];
+		}
+	}
+
+	return max;
+}
+
+Acima exemplo de array com todos os parâmetros passados quando a função foi invocada.
+
+
+Arrays e objetos --
+
+Arrays --- 
+
+Spread é uma forma de lidar separadamente com elementos.
+
+function sum(x, y, z) {
+	return x + y + z;
+}
+
+const numbers = [1, 2, 3];
+
+console.log(sum(...numbers));
+
+Acima, o que era parte de um array se torna um elemento independente.
+
+Rest ---
+
+function confereTamanho(...args){
+	console.log(args.length)
+}
+
+confereTamanho() // 0
+confereTamanho(1, 2) // 2
+confereTamanho(3, 4, 5) // 3
+
+Acima, o que era um elemento independente se torna parte de um array.
+
+Objetos ---
+
+const user = {
+	id: 42,
+	displayName: 'jdoe',
+	fullName: {
+		firstName: 'John',
+		lastName: 'Doe'
+	}
+};
+
+function userId({id}) {
+	return id;
+}
+
+functiongetFullName({fullName: {firstName: first, lastName: last}}) {
+	return `${first} ${last}`;
+}
+
+userId(user)
+// 42
+
+getFullName(user)
+// John Doe
+
+Acima, entre chaves {}, podemos filtrar apenas os dados que nos interessam em um objeto.
+

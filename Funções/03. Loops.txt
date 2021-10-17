@@ -1,0 +1,248 @@
+Loops -
+
+If/Else --
+
+function numeroPositivo(num) {
+	let resultado;
+
+	if(num < 0) {
+		resultado = false;
+	} else {
+		resultado = true;
+	}
+
+	return resultado;
+}
+
+numeroPositivo(2)
+// true
+
+numeroPositivo(-9)
+// false
+
+Acima temos a condição 'num < 0', a declaração 1 - dentro de if - 'resultado = false;', que ocorre caso a condição seja verdadeira, e a declaração 2 - dentro de else - 'resultado = true', que ocorre caso a condição seja falsa.
+
+Diminuindo essa função:
+
+function numeroPositivo(num) {
+	let resultado;
+
+	const ehNegativo = num < 0;
+
+	if(ehNegativo) {
+		resultado = false;
+	} else {
+		resultado = true;
+	}
+
+	return resultado;
+}
+
+Diminuindo ainda mais:
+
+function numeroPositivo(num) {
+	const ehNegativo = num < 0;
+
+	if(ehNegativo) {
+		return false;
+	}
+
+	return true;
+}
+
+Ainda, é possível aninhar if junto de outro if utilizando o else if, como abaixo:
+
+function numeroPositivo(num) {
+	const ehNegativo = num < 0;
+	const maiorQueDeuz = num > 10;
+
+	if(ehNegativo) {
+		return "Esse número é negativo!";
+	} else if (!ehNegatibo && maiorQueDez) {
+		return "Esse número é positivo e maior que 10!"
+	}
+
+	return "Esse número é positivo!";
+}
+
+
+Switch --
+
+function getAnimal(id) {
+	switch(id) {
+		case 1:
+			return "cão";
+		case 2:
+			return "gato";
+		case 3:
+			return "pássaro";
+		default:
+			return "peixe";
+	}
+}
+
+getAnimal(1) // cão
+getAnimal(4) // peixe
+getAnimal("1") // peixe
+
+O switch/case equivale a uma comparação de tipo e valor (===), sempre precisa de um valor "default" e é ideal para quando precisa comparar muitos valores.
+
+
+For --
+
+For é um loop dentro de elementos iteráveis (arrays, string).
+
+function multiplicaPorDois(arr) {
+	let multiplicados = [];
+
+	for(let i = 0; i < arr.length; i++) {
+		multiplicados.push(arr[i] * 2);
+	}
+
+	return multiplicados;
+}
+
+const meusNumeros = [2, 33, 456, 356, 40];
+
+multiplicaPorDois(meusNumeros);
+
+// [4, 66, 912, 712, 80]
+
+For...in --
+
+Trata-se de um loop entre propriedades enumeráveis de um objeto.
+
+Para retornar o objeto:
+
+function forInExemplo(obj) {
+	for(prop in obj) {
+		console.log(prop);
+	}
+}
+
+const meuObjeto = {
+	nome: "João",
+	idade: "20",
+	cidade: "Salvador"
+}
+
+forInExemplo(meuObjeto);
+// nome
+// idade
+// cidade
+
+
+Para retornar o valor dentro da propriedade:
+
+function forInExemplo(obj) {
+	for(prop in obj) {
+		console.log(obj[prop]);
+	}
+}
+
+const meuObjeto = {
+	nome: "João",
+	idade: "20",
+	cidade: "Salvador"
+}
+
+forInExemplo(meuObjeto);
+// João
+// 20
+// Salvador
+
+
+For...of --
+
+Trata-se de loop entre estruturas iteráveis (arrays, strings).
+
+Exemplo de string:
+
+function logLetras(palavra) {
+	for(letra of palavra) {
+		console.log(letra);
+	}
+}
+
+const palavra = "abacaxi";
+
+logLetras(palavra)
+// a
+// b
+// a
+// c
+// a
+// x
+// i
+
+Exemplo de array:
+
+function logNumeros(nums) {
+	for(num of nums) {
+		console.log(num);
+	}
+}
+
+const nums = [30, 20, 233, 2];
+
+logLetras(nums)
+// 30
+// 20
+// 233
+// 2
+
+
+While e do...while --
+
+O while executa instruções até que a condição se torne falsa:
+
+function exemploWhile() {
+	let num = 0;
+
+	while(num <= 5{
+	console.log(num);
+	num++;
+	}
+}
+
+exemploWhile()
+// 0
+// 1
+// 2
+// 3
+// 4
+// 5
+
+O do...while também executa instruções até que a condição se torne falta, porém, a primeira execução sempre ocorre.
+
+function exemploDoWhile() {
+	let num = 0;
+
+	do {
+		console.log(num);
+		num++;
+	} while(num <= 5)
+}
+
+exemploDoWhile()
+// 0
+// 1
+// 2
+// 3
+// 4
+// 5
+
+________________________________
+
+function exemploDoWhile() {
+	let num = 6;
+
+	do {
+		console.log(num);
+		num++;
+	} while(num <= 5)
+}
+
+exemploDoWhile()
+
+// 6

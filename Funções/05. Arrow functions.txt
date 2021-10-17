@@ -1,0 +1,40 @@
+Arrow Functions -
+
+A arrow function é representada pela seta '=>':
+
+const helloWorld = function(){
+	return "Hello World";
+}
+
+Podendo se tornar:
+
+const helloWorld = () => {
+	return "Hello World";
+}
+
+E ainda:
+
+const helloWorld = () => "Hello World";
+
+Caso exista apenas uma linha na função, pode-se dispensar as chaves e o return. O mesmo acontece com o parâmetro, podendo dispensar-se os parênteses:
+
+const soma = (a, b) => a + b;
+
+soma(4, 6);
+// 10
+
+_________________
+
+const soma = a => a;
+
+soma(4);
+// 4
+
+Além disso, arrow function não faz hoisting.
+
+
+Outras restrições --
+
+- "This" sempre será o objeto global. Métodos para modificar seu valor não irão funcionar;
+- Não existe o objeto "arguments";
+- O construtor (ex: new MeuObjeto()) também não pode ser utilizado.

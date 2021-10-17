@@ -12,3 +12,5 @@
 
 ## - Variáveis e Tipos
 
+## - Funções
+

@@ -1,0 +1,113 @@
+This -
+
+A palavra reservada this é uma referência de contexto. No exemplo abaixo, this refere-se ao objeto pessoa.
+
+const pessoa = {
+	firstName: "André",
+	lastName: "Soares',
+	id: 1,
+	fullName: function() {
+		return this.firstName + " " + this.lastName;
+	}
+	getId: function() {
+		return this.id;
+	}
+};
+
+pessoa.fullName();
+// André Soares
+
+pessoa.getId();
+// 1
+
+Ainda, o valor de this pode mudar de acordo com o lugar no código onde foi chamado.
+
+Em um objeto (método) --> próprio objeto dono do método
+Sozinha --> objeto global (em navegadores, window)
+Função --> objeto global
+Evento --> elemento que recebeu o evento
+
+
+Manipulando seu valor --
+
+O método call envia o valor:
+
+const pessoa = {
+	nome: 'Miguel',
+};
+
+const animal = {
+	nome: 'Murphy',
+};
+
+function getSomething() {
+	console.log(this.nome);
+
+getSomething.Call(pessoa)
+
+// Miguel
+
+Ainda, é possível passar parâmetros para essa função separando-os por vírgulas:
+
+const myObj = {
+	num1: 2,
+	num2: 4,
+};
+
+function soma(a, b) {
+	console.log(this.num1 + this.num2 + a + b);
+
+soma.call(myObj, 1, 5);
+
+// 12
+
+
+Apply --
+
+O apply funciona de forma muito parecida com a call, porém de um jeito diferente na hora de passar parâmetros para essa função dentro de um array.
+
+const pessoa = {
+	nome: 'Miguel',
+};
+
+const animal = {
+	nome: 'Godi',
+};
+
+function getSomething() {
+	console.log(this.nome);
+
+getSomething.apply(pessoa);
+// Miguel
+
+_______________________
+
+Dentro de um array:
+
+const myObj = {
+	num1: 2,
+	num2: 4,
+},
+
+function soma(a, b) {
+	console.log(this.num1 + this.num2 + a + b);
+}
+
+soma..apply(myObj, [1, 5]);
+// 12
+
+
+Bind --
+
+O bind clona a estrutura da função onde é chamada e aplica o valor do objeto passado como parâmetro:
+
+const retornaNomes = function () {
+	return this.nome;
+};
+
+let bruno = retornaNomes.bind({ nome: 'Bruno' });
+
+bruno();
+// Bruno
+
+

@@ -1,0 +1,31 @@
+A função element.classList adiciona, remove e dá um set na classe escolhida. Por exemplo:
+
+<div id="meu-elemento" class="classe">
+	<!-- resto do código aqui -->
+</div>
+
+Os parâmetros de inserção utilizando DOM são:
+
+const meuElemento = document.getElementById("meu-elemento")
+
+meuElemento.classList.add("novo-estilo");
+// Adiciona a classe "meu estilo"
+
+meuElemento.classList.remove("classe");
+// Remove a classe "classe"
+
+meuElemento.classList.toggle("dark-mode");
+// Adiciona a classe "dark-mode" caso ela não faça parte da lista e a remove caso ela faça.
+
+O HTML ficará assim após esses comandos:
+
+<div id="meu-elemento" class="novo-estilo dark-mode">
+	<!-- resto do código aqui -->
+</div>
+
+
+CSS - 
+
+Para acessar diretamento o CSS dentro de um elemento:
+
+document.getElementsByTagName("p").style.color = "blue";

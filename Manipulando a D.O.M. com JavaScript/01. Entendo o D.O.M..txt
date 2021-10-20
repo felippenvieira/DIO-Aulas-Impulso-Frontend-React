@@ -1,0 +1,5 @@
+D.O.M. significa Document Object Model e é um padrão de como acessar e modificar os elementos HTML de uma página.
+
+DOM vs BOM --
+
+BOM significa Browser Object Model e é tudo o que está dentro do objeto window, e dentro do BOM está o DOM, ou seja, o DOM é filho do BOM.

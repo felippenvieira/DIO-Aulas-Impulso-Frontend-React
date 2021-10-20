@@ -1,0 +1,26 @@
+Tipos de Evento -
+
+Eventos do mouse: mouseover, mouseout.
+Eventos de clique: click, dbclick.
+Eventos de atualização: change, load.
+
+Acionando Eventos -
+
+Diretamente no JavaScript, cria-se um evento que será acionado no momento em que o usuário realizar determinada ação, utilizando o event listener. Por exemplo:
+
+const botao = document.getElementById("meuBotao");
+
+botao.addEventListener("click", outraFuncao);
+
+Outra forma é dentro do HTML:
+
+<body>
+
+<h1 onclick="mudaTexto(this)">Clique aqui!</h1>
+
+<script>
+	function mudaTexto(id) {
+		id.innerHTML = "Mudei!";
+	}
+</script>
+</body>

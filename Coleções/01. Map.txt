@@ -1,0 +1,33 @@
+Map são coleções chaveadas.
+
+Suas características são: uma coleção de arrays no formato [chave, valor]; e pode ser iterado por um loop for... of.
+
+Sua declaração:
+
+const myMap = new Map();
+
+Métodos de adicionar, ler e deletar --
+
+const myMap = new Map()
+
+myMap.set('apple', 'fruit');
+// Map(1) {"apple" => "fruit"}
+
+myMap.get("apple");
+// "fruit"
+
+myMap.delete("apple")
+// true
+
+myMap.get("apple")
+// undefined
+
+
+Map vs Objeto --
+
+- Maps podem ter chaves de qualquer tipo;
+- Maps possuem a propriedade length;
+- Maps são mais fáceis de iterar;
+- Utilizado quando o valor das chaves é desconhecido;
+- Os valores têm o mesmo tipo.
+

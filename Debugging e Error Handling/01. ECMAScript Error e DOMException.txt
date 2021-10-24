@@ -1,0 +1,5 @@
+Tipos de erros - 
+
+ECMAScript Error são erros que ocorrem em tempo de execução e são compostos por mensagem, nome, linha e call stack.
+
+DOMException são erros relacionados ao Document Object Model (DOM).

@@ -22,5 +22,13 @@
 
 ## - Recriando jogo do dinossauro
 
+## - Trabalhando com Módulos em JavaScript
+
+## - Debugging e Error Handling
+
+
+
+
+
 
 

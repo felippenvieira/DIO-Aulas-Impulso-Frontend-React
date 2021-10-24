@@ -1,0 +1,32 @@
+Protótipos -
+
+Todos os objetos Javascript herdam propriedades e métodos de um prototype. O objeto Object.prototype está no topo desta cadeia.
+
+
+Classes -
+
+Syntatic sugar: uma sintaxe feita para facilitar a escrita
+
+Antigamente:
+
+var Meal = function(food) {
+	this.food = food
+}
+
+Meal.prototype.eat = function() {
+	return ':P'
+}
+
+Atualmente:
+
+class Meal {
+	constructor (food) {
+		this.food = food
+	}
+
+	eat() {
+		return ':P'
+	}
+}
+
+O Javascript não possui classes nativamente. Todas as classes são objetos e a herança se dá por protótipos.

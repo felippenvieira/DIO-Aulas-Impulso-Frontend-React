@@ -1,0 +1,23 @@
+Que é -
+
+O filter cria um novo array e não modifica o array original.
+
+
+Sintaxe -
+
+array.filter(callback, thisArg)
+
+Callback: função a ser executada em cada elemento.
+thisArg (opcional): valor de 'this' dentro da função de callback.
+
+
+Exemplo - 
+
+	const frutas = ['maça fuji', 'maça verde', 'laranja', 'abacaxi'];
+
+	frutas.filter((fruta) => fruta.includes('maça'));
+
+	// retorno: ['maça fuji', 'maça verde']
+
+
+

@@ -28,6 +28,12 @@
 
 ## - Orientação a Objetos
 
+## - Javascript Assíncrono
+
+## - Map, Filter e Reduce
+
+
+
 
 
 

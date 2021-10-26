@@ -1,0 +1,39 @@
+Que são APIs -
+
+API é a abreviação de Application Programming Interface e é uma forma de intermediar os resultados do back-end com o que é apresentado no front-end, sendo possível acessá-la por meio de URLs.
+
+É muito comum que APIs retornem seus dados no formato .json, portando precisamos tratar esses dados quando os recebermos. JSON é a abreviação de JavaScript Object Notation.
+
+
+Fetch -
+
+Consumindo APIs:
+
+	fetch(url, options)
+		.then(response => response.json())
+		.then(json => console.log(json))
+
+	// retorna uma promise
+
+Operações no banco (POST, GET, PUT, DELETE, etc)
+
+	fetch('https://endereco-api.com/', {
+		method: 'GET',
+		cache: 'no-cache',
+	})
+		.then(response => response.json())
+		.then(json => console.log(json))
+
+	// retorna uma promise
+
+________________________________________________________
+
+	fetch('https://endereco-api.com/', {
+		method: 'POST',
+		cache: 'no-cache',
+		body: JSON.stringify(data)
+	})
+		.then(response => response.json())
+		.then(json => console.log(json))
+
+	// retorna uma promise

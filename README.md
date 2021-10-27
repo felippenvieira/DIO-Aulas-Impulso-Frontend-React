@@ -32,6 +32,10 @@
 
 ## - Map, Filter e Reduce
 
+## - Trabalhando com Classes com Javascript
+
+
+
 
 
 

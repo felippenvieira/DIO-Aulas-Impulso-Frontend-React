@@ -1,0 +1,44 @@
+Que é Webpack -
+
+Webpack é um module bundler (um empacotador de módulos para aplicações JS).
+
+Gerar bundler que será utilizado no HTML, em ES5.
+
+Link oficial: https://webpack.js.org/
+
+Suporte: 
+- Fontes;
+- CSS;
+- Imagens;
+- HTML;
+- JS;
+- Plugins.
+
+
+Configuração do Webpack -
+
+Principais conceitos do Webpack:
+
+- Entry - Utilizando grafo, o Webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
+
+- Output - É para determinar quais são os bundlers que o Webpack irá emitir.
+
+- Loaders - É para permitir que o Webpack gerencie arquivos que não são JavaScript.
+
+- Plugins - Plugins podem ser utilizados para otimização de pacotes, minificação, injeção de scripts e muito mais.
+
+- Mode - Utilizado para abordagem de configuração zero. É possível configurar módulos como production, development ou none.
+
+O Production traz otimizações internas.
+
+O Development é executado com três plugins: UglifyJsPlugin, ModuleConcatenationPlugin e NoEmitOnErrosPlugin.
+
+Para criação do arquivo webpack.config.js:
+
+	npm i -D webpack webpack-cli
+
+	"build": "webpack --mode production"
+
+	npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+
+

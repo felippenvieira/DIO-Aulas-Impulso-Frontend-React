@@ -42,3 +42,8 @@ Para criação do arquivo webpack.config.js:
 	npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 
 
+EsLint --
+
+Configuração:
+
+	npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch

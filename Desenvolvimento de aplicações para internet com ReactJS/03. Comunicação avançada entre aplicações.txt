@@ -1,0 +1,51 @@
+Rest HTTP com React -
+
+APIs HTTP servem para conectar a um ou mais servidores HTTP:
+- GET;
+- POST;
+- DELETE;
+- PUT.
+
+Fetch API;
+Axios.
+
+
+Fetch API -
+
+É nativa do browser, oferece uma alternativa ao XMLHttpRequest() e jQuery.ajax(), dá suporte a Service Workers, não envia nem recebe cookies (precisa definir a opção credentials), e não rejeita o status do erro HTTP.
+
+
+Axios - 
+
+Axios é uma lib de HTTP API, é um cross-browser, pode monitorar o progresso de um request, dá um melhor tratamento de erros e melhor teste.
+
+A instalação é:
+	yarn add axios
+
+
+Imutabilidade e Redux -
+
+Uma vez criada, uma coleção não pode ser alterada.
+
+Novas coleções podem ser criadas a partir de uma coleção anterior e uma mutação (setter) como um conjunto.
+
+Novas coleções são criadas usando o máximo possível da estrutura original, reduzindo a cópia e aumentando a performance.
+
+Os benefícios da imutabilidade são:
+- Performance;
+- Programação mais simples;
+- Debugging mais simples (detecção de mudanças).
+
+Imutabilidade e React --
+
+Se você quer performance em React, use dados imutáveis utilizando o shouldComponentUpdate ou React.PureComponent.
+
+Immutable.js é a biblioteca mais famosa que fornece coleções persistentes e imutáveis, permitindo uma detecção barata de alterações nos objetos.
+
+Imutabilidade é pré-requisito no Redux, pois Redux e React-Redux utilizam comparações rasas, com manipulação de dados mais segura e time-travel debugging.
+
+Os reducers dividem o objeto de estados em domínios por uma chave.
+
+O combineReducers checa mudanças usando comparação rasa, fazem a interação nos reducers e criam um novo objeto de estados a partir dos estados retornados por cada reducer.
+
+O connect gera componentes que fazem comparação rasa com o estado root e retornam o valor para a função mapStateToProps, verificando aqueles que precisam de uma operação de re-render.

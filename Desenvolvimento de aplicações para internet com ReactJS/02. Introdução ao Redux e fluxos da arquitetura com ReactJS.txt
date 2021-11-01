@@ -1,0 +1,61 @@
+Introdução ao Flux -
+
+Flux é um padrão de projeto para tráfego de dados de maneira unidirecional.
+
+Action -> Dispatcher -> Store -> View -> Action... ->
+
+Action é como um telégrafo: ela formata a mensagem a ser enviada.
+
+Dispatcher é como um telefonista. Ele sabe todos os callbacks para diferentes stores.
+
+Store é como um gerente super controlador. Ele guarda a informação e todas as alterações têm que ser feitas por ele mesmo, mais ninguém.
+
+View é como um gerente intermediário (middleware) que recebe as notificações da store e passa os dados para as visões abaixo dela.
+
+
+Arquitetura Flux -
+
+Diversas implementações:
+- Redux (mais popular);
+- Reflux;
+- Mobx;
+- Vuex (baseado em Redux e Elm);
+- NgRx/store (baseada em Redux e RxJS).
+
+Essas implementações servem para comunicação entre componentes, além de centralizarem a informação.
+
+
+Que é Redux - 
+
+O Redux foi criado por Dan Abramov e Andre Clark em 2015, sendo uma implementação de Flux com algumas diferenças.
+
+Os três princípios do Redux são:
+1. Single sourch of truth: uma única store.
+2. State é read-only.
+3. Mudanças são feitas com pure functions.
+
+Actions -- 
+
+Em Redux, são como as actions com Flux, mas com a diferença de que as actions não enviam a action em si para o dispatcher, mas retornam um objeto de action formatado.
+
+Store --
+
+Em Flux são diversas stores, mas em Redux é apenas uma única store, além de que a atore cuida de toda a árvore de estados, possuindo também a função de descobrir qual estado muda.
+
+Reducers --
+
+Em Redux não há dispatcher (simplifica e divide o trabalho da Store), a store se conecta ao root reducer, que divide os estados em pequenos reducers para descobrir como lidar com esse estado - estados que aqui são imutáveis.
+
+Views --
+
+Em React, o Redux adiciona na camada de View três novos conceitos para conectar a View à Store:
+1. Provider.
+2. connect().
+3. selector.
+
+
+Instalando o Redux -
+
+	npm install react-redux
+	npm install --save-dev redux-devtools
+

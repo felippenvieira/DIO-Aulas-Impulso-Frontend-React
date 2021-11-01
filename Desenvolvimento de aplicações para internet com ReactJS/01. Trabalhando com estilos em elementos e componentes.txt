@@ -1,0 +1,55 @@
+Estilização CSS - 
+
+Maneiras de Estilização:
+
+1. Inline;
+2. Classes;
+3. CSS in JS.
+
+Inline --
+
+Prós: Maneira mais prática e direta; ajustes rápidos, testes de estilo.
+Contras: Díficil manutenção.
+
+Classes --
+
+Prós: Em JSX, define-se classes pelo atributo className; maneira mais prática e direta.
+Contras: Difícil manutenção; pouca flexibilidade; conflitos com nomes.
+
+CSS in JS --
+
+Instalação da versão mais utilizada no React: npm install --save styled-components
+
+Prós: Manutenção; facilidade para remover CSS; estilos dinâmicos; performance; injeção automática de prefixos vendor.
+
+
+Stateful vs Stateless -
+
+Stateful: usa estados.
+Stateless: não usa estados.
+
+O stateful possui gerenciamento de estados no componente, além de ser construído usando classes em JS. 
+
+O ciclo de vida é: inicialization, mounting, updation, unmounting.
+
+O stateless não possui gerenciamento de estados no componente, e é construído usando funções em JS.
+
+A nomenclatura, após os hooks, foi atualizada, utilizando class components e function components. Com hooks, estados são manipuláveis em function components.
+
+
+Formulários -
+
+Formulários mantêm um estado interno. 
+Em HTML, input, textarea e select têm um estado interno.
+Em React, podemos controlar o estado com state e setState.
+
+Componente controlado --
+
+Tanto select, input ou textarea aceitam um atributo value.
+Podemos mudar esse valor usando o atributo onChange.
+
+Componente não-controlado --
+
+A tag input é read-only.
+
+Algumas bibliotecas facilitam o uso de formulários como o Formik e o Redux-forms.

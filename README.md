@@ -40,6 +40,10 @@
 
 ## - Desenvolvimento de aplicações para internet com ReactJS
 
+## - Como gerenciar o estado das aplicações com Redux
+
+
+
 
 
 

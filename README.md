@@ -42,6 +42,10 @@
 
 ## - Como gerenciar o estado das aplicações com Redux
 
+## - Criando um site para encontrar restaurantes usando Google Maps que consulta API do Google
+
+
+
 
 
 
